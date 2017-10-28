@@ -2,10 +2,10 @@ package com.abhi.webservice.testkit
 
 import io.circe._
 import io.circe.parser._
+import io.circe.syntax._
 import org.http4s.Status.Successful
 import org.http4s._
 import org.http4s.client.blaze.PooledHttp1Client
-import io.circe._, io.circe.generic.auto._, io.circe.parser._, io.circe.syntax._
 
 /**
   * Created by ASrivastava on 10/27/17.
